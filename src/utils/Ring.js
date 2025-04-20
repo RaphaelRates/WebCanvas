@@ -168,7 +168,7 @@ export default class Ring {
     const distance = Math.hypot(dx, dy);
 
     if (distance < (this.outerRadius + this.innerRadius + options.sizeMouse)) {
-      this.fillColor = "blue";
+      // this.fillColor = "blue";
     } else {
       this.fillColor = this.otherColor;
     }
