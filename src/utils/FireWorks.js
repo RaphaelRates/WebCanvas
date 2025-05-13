@@ -82,7 +82,7 @@ export default class WaveLine {
     update(deltaTime, config = {}) {
         const t = Date.now() * 0.001;
       
-        if (this.autoAnimate.frequency) {
+        if (this.autoAnimate.frequency) {git 
           this.frequency = this.baseFrequency + this.freqVar * Math.sin(t * this.freqSpeed);
         }
       

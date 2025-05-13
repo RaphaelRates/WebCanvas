@@ -1,7 +1,6 @@
 import './style.css';
 
-import Color from './utils/Color.js';
-import WaveLine from './utils/WaveLine.js';
+import WaveLine from './utils/FireWorks.js';
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
@@ -66,7 +65,6 @@ init();
 
 document.documentElement.setAttribute('data-theme', 'dark');
 document.documentElement.style.setProperty('--cor-primaria', '#e74c3c');
-
 
 window.addEventListener("resize", resizeCanvas);
 window.addEventListener("mousemove", ({ clientX, clientY }) => {
